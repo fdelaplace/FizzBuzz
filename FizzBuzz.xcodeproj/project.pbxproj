@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2774C5C5341271491CA60A3B /* Pods_FizzBuzz_FizzBuzzUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D376313D38AE6241A963A95E /* Pods_FizzBuzz_FizzBuzzUITests.framework */; };
 		520BC03026A863570047073E /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520BC02F26A863570047073E /* Statistics.swift */; };
+		520BC03226AA1C3C0047073E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520BC03126AA1C3C0047073E /* CustomTextField.swift */; };
 		5280C3B92692F0A1009A9487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280C3B82692F0A1009A9487 /* AppDelegate.swift */; };
 		5280C3BB2692F0A1009A9487 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280C3BA2692F0A1009A9487 /* SceneDelegate.swift */; };
 		5280C3BD2692F0A1009A9487 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280C3BC2692F0A1009A9487 /* FormViewController.swift */; };
@@ -45,6 +46,7 @@
 		274AC45C5F990A52EB1EBC25 /* Pods-FizzBuzz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FizzBuzz.debug.xcconfig"; path = "Target Support Files/Pods-FizzBuzz/Pods-FizzBuzz.debug.xcconfig"; sourceTree = "<group>"; };
 		2CEC769867D3D16ABE1516BE /* Pods_FizzBuzz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FizzBuzz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		520BC02F26A863570047073E /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		520BC03126AA1C3C0047073E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		5280C3B52692F0A1009A9487 /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5280C3B82692F0A1009A9487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5280C3BA2692F0A1009A9487 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				5280C3B82692F0A1009A9487 /* AppDelegate.swift */,
 				5280C3BA2692F0A1009A9487 /* SceneDelegate.swift */,
 				5280C3E9269347D6009A9487 /* FizzBuzzGame.swift */,
+				520BC03126AA1C3C0047073E /* CustomTextField.swift */,
 				5280C3C62692F0A2009A9487 /* Info.plist */,
 				5280C3F0269483ED009A9487 /* Controllers */,
 				5280C3EF269483C3009A9487 /* UI */,
@@ -440,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520BC03226AA1C3C0047073E /* CustomTextField.swift in Sources */,
 				5280C3BD2692F0A1009A9487 /* FormViewController.swift in Sources */,
 				5280C3B92692F0A1009A9487 /* AppDelegate.swift in Sources */,
 				5280C3EA269347D6009A9487 /* FizzBuzzGame.swift in Sources */,

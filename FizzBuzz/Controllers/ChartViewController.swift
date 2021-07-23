@@ -14,7 +14,6 @@ class ChartViewController: UIViewController, ChartViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Bar Chart"
         self.setup(barLineChartView: chartView)
         
         chartView.delegate = self
@@ -61,14 +60,13 @@ class ChartViewController: UIViewController, ChartViewDelegate {
     
     func setDataCount() {
         
-        /*guard let data = Statistics.load() else {
+        guard let data = Statistics.load() else {
             return
-        }*/
-        let data = ["Toto": 2.0, "Tata": 3.0]
+        }
         var yVals = [BarChartDataEntry]()
         var index = 0.0
         for key in data.keys {
-            yVals.append(BarChartDataEntry(x: Double(index), y: data[key]!, data: key))
+            yVals.append(BarChartDataEntry(x: Double(index), y: data[key]! as! Double, data: key))
             index =  index + 1.0
         }
         

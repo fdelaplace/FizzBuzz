@@ -24,6 +24,7 @@ class Statistics {
         var stats = defaults.dictionary(forKey: statsKey)
         if stats == nil {
             defaults.set(Dictionary<String, Any>(), forKey: statsKey)
+            stats = defaults.dictionary(forKey: statsKey)
         }
         for param in parameters {
             if stats![param] == nil {
