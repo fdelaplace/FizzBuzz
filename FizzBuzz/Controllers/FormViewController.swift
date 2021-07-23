@@ -39,7 +39,9 @@ class FormViewController: UIViewController {
             tuples.append((Int(dividers[i].text!)!, messages[i].text!))
         }
         
-        resultsTextView.text = FizzBuzzGame.fizzBuzz(tuples: tuples, limit: Int(limits.first!.text!)!).description
+        resultsTextView.text = String(FizzBuzzGame.fizzBuzz(tuples: tuples, limit: Int(limits.first!.text!)!).flatMap {
+            $0+" "
+        })
     }
     
     @IBAction func validate(_ sender: UIButton) {
